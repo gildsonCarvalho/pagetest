@@ -1,0 +1,33 @@
+.container {
+    min-width: 955px;
+}
+
+#buy .col-md-5 {
+    -ms-flex: 0 0 40% !important;
+    flex: 0 0 40% !important;
+    max-width: 40% !important;
+}
+
+#buy .col-md-4 {
+    -ms-flex: 0 0 37% !important;
+    flex: 0 0 37% !important;
+    max-width: 37% !important;
+}
+
+#buy .col-md-3 {
+    -ms-flex: 0 0 23% !important;
+    flex: 0 0 23% !important;
+    max-width: 23% !important;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 955px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1100px;
+    }
+}

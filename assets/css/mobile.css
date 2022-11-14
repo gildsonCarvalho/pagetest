@@ -1,0 +1,51 @@
+.container {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.nav-pills a * {
+    color: #111;
+    opacity: .6;
+    transition: opacity .4s;
+}
+
+#pills-buy-type {
+    margin-top: -10px;
+}
+
+#badge-discount-mobile {
+    width: 100px;
+    position: relative;
+    float: right;
+    bottom: -5px;
+    right: -10px;
+    z-index: 99;
+}
+
+.checkbox-mobile, .checkbox-mobile * {
+    display: inline;
+    font-size: 16px;
+}
+
+.terms-mobile {
+    font-size: .7rem;
+}
+
+#faq {
+    padding-bottom: 2rem;
+}
+
+#product-preview {
+    /*display: none !important;*/
+    max-height: 150px;
+    margin: 10px auto 15px;
+}
+
+.btn {
+    font-family: 'Effra Bold', sans-serif;
+}
+
+.drnature-check {
+    font-size: .95rem;
+    width: 100%;
+}
